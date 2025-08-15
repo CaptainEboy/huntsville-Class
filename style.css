@@ -1,0 +1,112 @@
+/* CSS Selectors */
+
+/* ID selector */
+#title {
+    color: blue;
+}
+
+/* Class selector */
+.description {
+    font-size: 18px;
+    color: gray;
+}
+
+/* Tag selector */
+p {
+    font-family: Arial, sans-serif;
+}
+
+/* Pseudo-classes */
+
+.btn:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.link:active {
+    color: red;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+/* Float */
+
+.float-container {
+    width: 100%;
+    height: 200px;
+    background-color: #f0f0f0;
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+    background-color: #ccc;
+    height: 100%;
+    text-align: center;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+    background-color: #ddd;
+    height: 100%;
+    text-align: center;
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+/* Flexbox */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Margin and Padding */
+
+.margin-padding-demo {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Font Styling */
+
+.font-demo {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Pseudo-elements */
+
+.first-letter-demo::first-letter {
+    font-size: 36px;
+    color: red;
+}
+
+.before-demo::before {
+    content: "New ";
+    font-weight: bold;
+    color: blue;
+}
